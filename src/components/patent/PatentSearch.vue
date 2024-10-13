@@ -97,8 +97,8 @@
 import { ref } from 'vue'
 import axios from '../../api/axios'
 
-const apiKey = ref('7v9mr4lgjwffkxwhdt935b03cx0186mttie0mqfmssgys7fi')
-const secretKey = ref('hwxk3lrdrc52jfuh833qeo1b1v9dqyd6wy4ud9api93gmssk8wahffsct30a6p01')
+const apiKey = ref('')
+const secretKey = ref('')
 const token = ref(null)
 const searchTerm = ref('华为')
 const currentPage = ref(1)
